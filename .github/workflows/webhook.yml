@@ -7,7 +7,7 @@ on:
       - webhook 
 
 
-jops:
+jobs:
   mymy:
     runs_on: ubuntu-latest
     steps:
