@@ -2,7 +2,7 @@ name: mustafa's_webhook
 
 
 on:
-  repsitory_dispatch:
+  repository_dispatch:
     type:
       - webhook 
 
