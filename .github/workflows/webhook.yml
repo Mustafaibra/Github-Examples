@@ -1,0 +1,16 @@
+name: mustafa's_webhook 
+
+on:
+  repsitory_dispatch:
+    type:
+      - webhook 
+
+
+jops:
+  mymy:
+    runs_on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Run a script
+        run: echo "Event of type $GITHUB_EVENT_NAME"
